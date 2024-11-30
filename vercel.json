@@ -27,7 +27,7 @@
     ],
     "redirects": [
         {
-            "source": "/(.*)",
+            "source": "/api/(.*)",
             "destination": "src/main.ts"
         }
     ]
