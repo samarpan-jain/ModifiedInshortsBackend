@@ -12,7 +12,7 @@
             "headers": [
                 {
                     "key": "Access-Control-Allow-Origin",
-                    "value": "https://your-frontend-domain.com"
+                    "value": "*"
                 },
                 {
                     "key": "Access-Control-Allow-Methods",
