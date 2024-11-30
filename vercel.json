@@ -8,15 +8,14 @@
     ],
     "routes": [
         {
-            "src": "/(.*)",
+            "src": "*",
             "dest": "src/main.ts",
             "methods": [
                 "GET",
                 "POST",
                 "PUT",
                 "DELETE"
-            ],
-            "Origin":"*"
+            ]
         }
     ]
 }
