@@ -9,7 +9,6 @@
     "headers": [
         {
             "source": "/api/(.*)",
-            "dest": "src/main.ts",
             "headers": [
                 {
                     "key": "Access-Control-Allow-Credentials",
